@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Righteous&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.fa-dragon {
+  color: #ffffff;
+}
+
+.arcane-logo {
+  font-family: 'Righteous', cursive;
+  color: #ffffff;
+}
+
+.content {
+  padding-bottom: 1rem;
+  width: 100%;
+  background: #2b2d34 url("../img/bg.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: #fff;
+}
+
+.content-info {
+  align-items: center;
+  justify-content: center;
+  min-height: 50rem;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  font: #ffffff;
+}
+
+h1.info {
+  font-size: 10rem;
+}
+
+h1.page-title {
+  font-size: 5rem;
+}
